@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+/* Overall container */
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* 🔷 Logo Banner */
+.top-logo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px;
+}
+
+.top-logo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.school-name {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* 🔷 Page header */
+.app-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* 🔷 Card-style layout for form and table sections */
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔷 Table styling enhancements */
+table {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table td,
+table th {
+  vertical-align: middle;
+}
+
+/* 🔷 Form styling */
+.form-group label {
+  font-weight: 500;
+  text-align: left;
+  display: block;
+}
+
+/* 🔷 Button enhancements */
+button,
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover,
+.btn:hover {
+  opacity: 0.9;
+}
